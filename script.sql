@@ -1,0 +1,10 @@
+-- Script bd
+CREATE DATABASE holamundo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE holamundo;
+
+CREATE TABLE mensajes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(100) NOT NULL,
+  mensaje TEXT NOT NULL,
+  creado_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
