@@ -3,7 +3,9 @@ En mi caso, utilizaré esta ruta: /home/jorge/Teoría_Sistemas/
 
 Para cambiarlo: 
 1. Abrir el archivo de configuracion de XAMPP
+```
 sudo nano /opt/lampp/etc/httpd.conf
+```
 
 2. Reemplazar: 
 ```
