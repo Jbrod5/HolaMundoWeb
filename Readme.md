@@ -11,6 +11,8 @@ sudo nano /opt/lampp/etc/httpd.conf
 ```
 DocumentRoot "/opt/lampp/htdocs"
 <Directory "/opt/lampp/htdocs">
+    ... y el resto hasta la etiqueta
+</Directory>
 ```
 
 Por: 
